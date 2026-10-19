@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #20f027;
+}
+    p { color: #270ee7;
+        h1 {
+            color: #4c1be1
+        }
+    }
+    p {
+        line-height: 1.6;
+    }
+    .card {
+        background: rgb(24, 178, 196);
+        border: 1px solid #cbd5e1;
+        border-radius: 8px;
+    }
+    h1 {
+    font-size: 124.5rem;
+    font-weight: 700;
+    text-align: center;
+}

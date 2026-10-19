@@ -1,0 +1,66 @@
+.cards {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+title {
+    color: rgb(26, 44, 240);
+}
+
+body {
+    font-family: Seaford, sans-serif;
+    background-color: rgb(128, 237, 31);
+}
+
+li {
+    color: rgb(247, 17, 208);
+
+}
+
+h1, h2 {
+    color: rgb(229, 39, 159);
+}
+
+
+.card {
+    flex: 1 1 180px;
+}
+
+a:hover {
+    color: #00ec23;
+}
+
+button:focus-visible {
+    outline: 3px solid #63a7f5;
+    outline-offset: 2px;
+}
+
+p {
+    color: rgb(77, 58, 244);
+}
+
+.intro {
+    color: rgb(8, 8, 8);
+}
+
+img {
+    max-width: 30%;
+    height: auto;
+}
+
+@media (max-width: 100px) {
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        flex: 1 1 50%;
+    }
+}
+
+animation-name: fadeInOut, moveLeft300px, bounce;
+animation-duration: 2.5s, 5s, 1s;
+animation-iteration-count: 2, 1, 5;

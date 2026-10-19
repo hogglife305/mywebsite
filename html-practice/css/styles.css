@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(61, 159, 184);
+}
+h1 {
+    color: #3ff012;
+}
+h2 {
+        line-height: 1.6;
+    }
+    .card {
+            width: 320px;
+            padding: 20px;
+            border: 1px solid #d5e91e;
+            margin: 24px auto;
+    }
+        #contact {
+            background-color: #0de6f5;
+        }
+h1, h2, h3 {
+                font-family: Georgia, serif;
+            }
+    nav a {
+                text-decoration: none;
+            }

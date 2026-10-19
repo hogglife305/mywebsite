@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.notice {
+    border:2px solid #0f3da0;
+    border-radius: 10px;
+    background-color: #273fca;
+}
+    .card {
+        width: 320px;
+        padding: 10px;
+        border: 1px solid #cbd5e1;
+        margin: 10px 20px 30px 40px;
+    }
+    .cards {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+    .card {
+        flex: 1 1 180px;
+    }
